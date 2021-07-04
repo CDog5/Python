@@ -1,4 +1,4 @@
-VERSION = 9.0
+VERSION = 9.1
 class TokenType:
     FLOAT = 'FLOAT'
     INT = 'INT'

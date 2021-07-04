@@ -90,6 +90,8 @@ class LexedItem:
         with open(path,'w') as f:
             f.write(data)
     #You can display the output as a list of token objects, or have them formatted nicely
+    def __iter__(self):
+        return iter(self.as_raw())
     def as_raw(self):
         return self.__list
     def as_dict(self):
